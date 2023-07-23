@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Man fashion</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <header>
+    <!-- nav starts from here -->
+    <div class="navbar bg-base-100 p-5">
+      <div class="flex-1">
+        <a class="btn btn-ghost text-xl uppercase font-bold lg:text-4xl">Men fashion</a>
+      </div>
+      <div class="flex-none">
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+              <span class="badge badge-sm indicator-item">8</span>
+            </div>
+          </label>
+          <div tabindex="0" class="mt-3 z-[1] card card-compact dropdown-content w-52 bg-base-100 shadow">
+            <div class="card-body">
+              <span class="font-bold text-lg">8 Items</span>
+              <span class="text-info">Subtotal: $999</span>
+              <div class="card-actions">
+                <button class="btn btn-primary btn-block">View cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img src="/images/avatar.png" />
+            </div>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li>
+              <a class="justify-between">
+                Profile
+                <span class="badge">New</span>
+              </a>
+            </li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar ends -->
+
+    <!-- hero section starts -->
+    <section>
+      <div class="hero min-h-screen" style="background-image: url(images/yellow-bg.jpg);">
+        <div class="hero-overlay bg-opacity-40"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Welcome To DaisyMan</h1>
+            <p class="mb-5">Your one-stop destination for all your fashion needs. At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+            <button class="btn bg-white text-black rounded-3xl">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section ends -->
+  </header>
+  <main>
+    <!-- collection section -->
+    <section class="mb-24">
+      <div class="my-10 space-y-2">
+        <h1 class="text-3xl text-center">Huge Collection</h1>
+        <p class="text-center text-sm">Browse from a various collection</p>
+      </div>
+      <div class="grid grid-cols-3 gap-5 mx-32">
+        <!-- shoes -->
+        <div class="card image-full">
+          <figure><img src="/images/shoes.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- clothes -->
+        <div class="card bg-base-100 shadow-xl image-full">
+          <figure><img src="/images/hoodies.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Clothes!</h2>
+            <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- Perfumes -->
+        <div class="card bg-base-100 shadow-xl image-full">
+          <figure><img src="/images/perfume.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Perfumes!</h2>
+            <p>At DaisyMan, we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+
+    <!-- purchase section -->
+    <section class="flex items-center mx-32">
+      <div class="flex-1 space-y-3">
+        <h1 class="text-4xl">Easy Purchase</h1>
+        <p>we believe that style is a reflection of your unique personality and our mission is to provide you with a diverse and trendy collection.Our mission is to provide you with a diverse and trendy collection.</p>
+      </div>
+
+      <div class="flex-1">
+        <img src="/images/easy-purchase.avif" alt="">
+      </div>
+    </section>
+
+    <!-- top products section -->
+    <section class="my-24">
+      <div class="mb-7 text-center space-y-2">
+        <h1 class="text-4xl font-bold">Top Products </h1>
+        <p>Browse from a various collections</p>
+      </div>
+      <div class="grid grid-cols-4 mx-28 gap-6">
+        <!-- 1 -->
+        <div class="card bg-base-100 hover:shadow-2xl duration-700 border border-black">
+          <figure><img src="/images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white border border-black hover:bg-black hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="card bg-base-100 hover:shadow-2xl duration-700 border border-black">
+          <figure><img src="/images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white border border-black hover:bg-black hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="card bg-base-100 hover:shadow-2xl duration-700 border border-black">
+          <figure><img src="/images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white border border-black hover:bg-black hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="card bg-base-100 hover:shadow-2xl duration-700 border border-black">
+          <figure><img src="/images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif" alt="Shoes" /></figure>
+          <div class="card-body">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn rounded-3xl bg-white border border-black hover:bg-black hover:text-white">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
